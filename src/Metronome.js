@@ -2,10 +2,19 @@ import React, { Component } from 'react';
 import './Metronome.css';
 
 class Metronome extends Component {
-  render() {
-    let bpm = 100;
-    let playing = false;
+  constructor(props) {
+    super(props);
 
+    this.state = {
+      playing: false,
+      count: 0,
+      bpm: 100,
+      beatsPerMeasure: 4
+    };
+  }
+
+  render() {
+    const { playing, bpm } = this.state;
     return (
       <div className="metronome">
         <div classname="bpm-slider">
