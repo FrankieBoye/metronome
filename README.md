@@ -1,3 +1,21 @@
+### Metronome
+
+A Metronome created with React to practice the following:
+
+1. Loading sounds [Webpack, JS]
+
+2. Initializing state in React
+
+3. Using arrow functions to bind class methods
+
+4. Interval timers in JS
+
+5. How functional setState works, as well as plain setState
+
+6. How to trigger an action after state is set
+
+7. Input components + handling changes [React]
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
