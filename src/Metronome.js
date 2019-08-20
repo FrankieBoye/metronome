@@ -16,8 +16,11 @@ class Metronome extends Component {
 
     this.click1 = new Audio(click1);
     this.click2 = new Audio(click2);
-
   }
+
+    startStop = () => {
+      this.click1.play();
+    }
 
   handleBpmChange = event => {
     const bpm = event.target.value;
@@ -33,7 +36,7 @@ class Metronome extends Component {
           <div>{bpm} BPM</div>
           <input type="range" min="60" max="240" value={bpm} onChange={this.handleBpmChange} />
         </div>
-        <button>{playing ? 'Stop' : 'Start'}</button>
+        <button onClick={this.startStop}>{playing ? 'Stop' : 'Start'}</button>
       </div>
     );
   }
