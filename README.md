@@ -16,6 +16,8 @@ A Metronome created with React to practice the following:
 
 7. Input components + handling changes [React]
 
+![image](https://user-images.githubusercontent.com/44870179/63334674-cb1dff80-c333-11e9-9e4f-06c7704fa0cf.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
